@@ -1,1 +1,1 @@
-web: gunicorn pharmahacks:app
+web: gunicorn app:app

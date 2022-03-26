@@ -1,8 +1,8 @@
-from flask import Flask, redirect, render_template, request, url_for
+from flask import Flask, render_template
 
 app = Flask(__name__, template_folder="template")
 
-@app.route()
+@app.route('/')
 def index():
     return render_template("index.html")
 
